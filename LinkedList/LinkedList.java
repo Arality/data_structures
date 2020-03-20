@@ -13,16 +13,13 @@ public class LinkedList{
         Node newNode = new Node();
         newNode.data = data;
         newNode.prev = this.node;
-
         this.node.next = newNode;
         this.node = newNode;
     }
-
     public void pop(){
         this.node = this.node.prev;
         this.node.next = null;
     }
-
     public boolean contains(int item){
         Node tempNode = this.head;
         while(true){

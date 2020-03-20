@@ -34,8 +34,3 @@ class LinkedList:
                 return True
             else:
                 tempNode = tempNode.next
-
-List = LinkedList("Hello Word")
-List.add(2)
-List.add(4)
-print(List.contains(2))
