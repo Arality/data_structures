@@ -17,8 +17,8 @@ public class LinkedList{
         this.node = newNode;
     }
     public void pop(){
-        this.node = this.node.prev;
-        this.node.next = null;
+            this.node = this.node.prev;
+            this.node.next = null;
     }
     public boolean contains(int item){
         Node tempNode = this.head;
