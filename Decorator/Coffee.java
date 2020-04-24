@@ -1,4 +1,3 @@
-
 public class Coffee implements IBeverage{
     private double cost;
 
